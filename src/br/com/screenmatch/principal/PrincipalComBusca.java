@@ -27,7 +27,7 @@ public class PrincipalComBusca {
                 .create();
 
         while (!busca.equalsIgnoreCase("sair")) {
-            System.out.println("Digite um filme para buscar: ");
+            System.out.println("Digite um filme para buscar ou sair para finalizar: ");
             busca = scan.nextLine();
 
             if(busca.equalsIgnoreCase("sair")){
